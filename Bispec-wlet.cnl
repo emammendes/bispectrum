@@ -1,0 +1,10 @@
+file name=Wlet.data         * data file name
+use column number=1              * data column number
+resolution bandwidth=10.0        * resolution bandwidth in Hz
+sampling unit=frequency+k        * sampling unit (kHz, Hz, or time unit)
+lower frequency=0.2 upper frequency=0.7  * bandwidth settings in frequency or period units
+file read start=1  file read end=0   * data reading pointers
+% taper=5.                           * % taper or remove line
+resamples=0    quantile=0.9          * resamples, quantile - nonlinearity test
+# end of control file reads
+prewhiten with AR(4) fit  prob threshold=0.01  * prewhiten or remove line
