@@ -1,9 +1,0 @@
-file name=gaus_matlab.data   * data file name
-use column number=1              * column number used in data file
-resolution bandwidth=2.000000        * resolution bandwidth (Hz or time unit)
-sampling unit=frequency+K             * sampling unit (kHz, Hz, or time unit)
-lower frequency=0.000000   upper frequency=0.000000      * bandwidth settings in frequency or period unit
-file read start=1  file read end=0           * data reading pointers  (end=0 read to end of data file)
-taper=0.000000                           * taper or remove line
-resamples=0    quantile=0.950000          * resamples, quantile
-# end of control file read
